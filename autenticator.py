@@ -20,7 +20,7 @@ def main():
     # segundos restantes del intervalo actual (30s por defecto)
     remaining = 30 - int(time.time()) % 30
 
-    print(code)
+    print(f"Se copió al portapapeles el código: " code)
     copy(code)
 if __name__ == "__main__":
     main()
